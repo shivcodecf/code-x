@@ -3,7 +3,7 @@ import Icecream1 from "./components/Icecream1";
 import Icecream2 from "./components/Icecream2";
 import Icecream3 from "./components/Icecream3";
 import Icecream4 from "./components/Icecream4";
-import Layout from "./components/Layout";
+ import Layout from "./components/Layout";
 
 const App = () => {
   return (
