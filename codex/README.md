@@ -82,39 +82,41 @@ yarn dev
 
 ```
 
-🧠 Internal Documentation
-PageWrapper.jsx
+## 📌 Internal Documentation
+
+- PageWrapper.jsx
 Wraps all route components to enable Framer Motion animations during route transitions.
 
-Navbar.jsx
+- Navbar.jsx
 Responsive navigation bar that adapts using Tailwind’s responsive breakpoints.
 
-Route Transitions
+- Route Transitions
 Each page uses <motion.div> with initial, animate, and transition props to create smooth animations.
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
-React.js
+- React.js
 
-React Router v6
+- React Router v6
 
-Framer Motion
+- Framer Motion
 
-Tailwind CSS
+- Tailwind CSS
 
-Vite
+- Vite
 
-Deployed on Vercel
+-Deployed on Vercel
 
 
-🚧 Known Issues
-Minor animation flicker during some fast route switches.
+# 🚧 Known Issues
 
-Scroll restoration may behave inconsistently on certain mobile browsers.
+- Minor animation flicker during some fast route switches.
+
+- Scroll restoration may behave inconsistently on certain mobile browsers.
 
 
 
 📬 Contact
-For questions, suggestions, or improvements, feel free to open an issue or contact me:
+- For questions, suggestions, or improvements, feel free to open an issue or contact me:
 
 📧 shivamyadav2113128@gmail.com
