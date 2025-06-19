@@ -7,6 +7,7 @@ import frame4 from "../assets/frame4.png";
 import ice3 from "../assets/ice3.png";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import Navbar from "../common/Navbar";
 
 const Icecream2 = () => {
   const images = [frame2, frame3, frame4, ice3];
@@ -14,19 +15,9 @@ const Icecream2 = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-r from-blue-500 to-[#45BFF4] text-white font-sans overflow-hidden transition-all duration-300 ease-in-out">
-      {/* Navbar */}
-      <header className="flex justify-between items-center px-12 py-6">
-        <img src={logo} alt="Logo" />
-        <nav className="space-x-10 font-medium font-Poppins">
-          <a href="#" className="hover:underline">Home</a>
-          <a href="#" className="hover:underline">Shop</a>
-          <a href="#" className="hover:underline">Delivery</a>
-          <a href="#" className="hover:underline">Contact</a>
-        </nav>
-        <button className="mr-[100px] font-Poppins py-2 px-10 rounded-md font-semibold bg-transparent text-white border border-white">
-          Order Your Ice-cream
-        </button>
-      </header>
+     
+
+      <Navbar/>
 
       {/* Main Section */}
     <main className="flex flex-col md:flex-row px-10 min-h-[calc(100vh-100px)]">
