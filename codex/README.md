@@ -6,13 +6,13 @@ A responsive, animated, multi-page ice cream shop built with **React.js**, **Fra
 
 ## 📌 Project Overview
 
-This project is a fictional single-page application (SPA) that displays different ice cream flavors using routes like `/`, `/ice2`, `/ice3`, `/ice4`. Each page showcases:
+This is a fictional Single Page Application (SPA) that displays different ice cream flavors using routes like `/`, `/ice2`, `/ice3`, `/ice4`. Each page includes:
 
 - A themed background
-- Navbar and navigation
-- A hero section with animation
-- Interactive mini cones (clickable to navigate)
-- Framer Motion-based transitions between routes
+- Navbar with navigation links
+- A hero section with animated images and text
+- Clickable mini cones to switch between flavors
+- Framer Motion-based page transitions
 - Responsive design (mobile-first)
 - Smooth transitions and scroll restoration
 
@@ -24,17 +24,15 @@ icecream-shop/
 ├── public/
 │ └── index.html
 ├── src/
-│ ├── assets/ # All image assets (logo, icecreams, frames)
-| |---common
-| | |---Navbar.jsx
-| |
+│ ├── assets/ # All image assets (logo, cones, frames)
+│ │ └── common/
+│ │ └── Navbar.jsx
 │ ├── components/
 │ │ ├── Icecream1.jsx
 │ │ ├── Icecream2.jsx
 │ │ ├── Icecream3.jsx
 │ │ ├── Icecream4.jsx
-│ │ ├── Layout.jsx # Used for wrapping routes
-│ │ |
+│ │ ├── Layout.jsx # Wraps all routes
 │ │ └── PageWrapper.jsx # Handles Framer Motion transitions
 │ ├── App.jsx
 │ ├── main.jsx
@@ -43,8 +41,9 @@ icecream-shop/
 ├── package.json
 ├── tailwind.config.js
 ├── postcss.config.js
-├── vercel.json # Handles SPA route fallback for Vercel
-└── README.md # Project documentation
+├── vercel.json # SPA fallback for Vercel
+└── README.md
+
 
 ---
 
@@ -56,47 +55,44 @@ icecream-shop/
 - npm or yarn
 - Git
 
-### 🚀 Getting Started
-
-1. **Clone the repository**
+### 📦 Install & Run Locally
 
 ```bash
+git clone https://github.com/your-username/icecream-shop.git
+cd icecream-shop
 
-   git clone https://github.com/your-username/icecream-shop.git
-   cd codex
-
-
-   2.Install dependencies
-
-     npm install
+# Install dependencies
+npm install
 # or
-     yarn install
+yarn install
+
+# Start development server
+npm run dev
+# or
+yarn dev
 
 
+🚀 Deployment (Vercel)
 
- 🚀 Deployment (Vercel)
-
-     {
+{
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
   ]
 }
 
 
-
-🧠 Internal Documentation 
-   
+🧠 Internal Documentation
 PageWrapper.jsx
-Wraps all route components to apply framer-motion animation on route change.
+Wraps all route components to enable Framer Motion animations during route transitions.
 
 Navbar.jsx
-Handles responsive navigation bar layout, mobile tweaks via Tailwind breakpoints.
+Responsive navigation bar that adapts using Tailwind’s responsive breakpoints.
 
 Route Transitions
-Handled using motion.div with defined initial, animate, and transition props.
-
+Each page uses <motion.div> with initial, animate, and transition props to create smooth animations.
 
 🛠️ Technologies Used
+
 React.js
 
 React Router v6
@@ -110,11 +106,14 @@ Vite
 Deployed on Vercel
 
 
+🚧 Known Issues
+Minor animation flicker during some fast route switches.
+
+Scroll restoration may behave inconsistently on certain mobile browsers.
+
+
 
 📬 Contact
-For queries or improvements, feel free to open an issue or contact me shivamyadav2113128@gmail.com
+For questions, suggestions, or improvements, feel free to open an issue or contact me:
 
-
-
-
-
+📧 shivamyadav2113128@gmail.com
