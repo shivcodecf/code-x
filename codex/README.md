@@ -112,7 +112,7 @@ yarn dev
 
 - Vite
 
--Deployed on Vercel
+- Deployed on Vercel
 
 
 # 🚧 Known Issues
@@ -123,7 +123,7 @@ yarn dev
 
 
 
-📬 Contact
+## 📬 Contact
 - For questions, suggestions, or improvements, feel free to open an issue or contact me:
 
 📧 shivamyadav2113128@gmail.com
