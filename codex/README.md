@@ -21,7 +21,7 @@ This is a fictional Single Page Application (SPA) that displays different ice cr
 ## 📁 Folder Structure
 
 ```plaintext
-icecream-shop/
+codex/
 ├── public/
 │   └── index.html
 ├── src/
