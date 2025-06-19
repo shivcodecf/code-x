@@ -1,12 +1,88 @@
-# React + Vite
+# 🍦 React Ice Cream Shop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, animated, multi-page ice cream shop built with **React.js**, **Framer Motion**, and **Tailwind CSS**. The application showcases different flavors of ice cream with transitions and a sleek UI optimized for both mobile and desktop.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Project Overview
 
-## Expanding the ESLint configuration
+This project is a fictional single-page application (SPA) that displays different ice cream flavors using routes like `/`, `/ice2`, `/ice3`, `/ice4`. Each page showcases:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- A themed background
+- Navbar and navigation
+- A hero section with animation
+- Interactive mini cones (clickable to navigate)
+- Framer Motion-based transitions between routes
+- Responsive design (mobile-first)
+- Smooth transitions and scroll restoration
+
+---
+
+## 📁 Folder Structure
+
+icecream-shop/
+├── public/
+│ └── index.html
+├── src/
+│ ├── assets/ # All image assets (logo, icecreams, frames)
+| |---common
+| | |---Navbar.jsx
+| |
+│ ├── components/
+│ │ ├── Icecream1.jsx
+│ │ ├── Icecream2.jsx
+│ │ ├── Icecream3.jsx
+│ │ ├── Icecream4.jsx
+│ │ ├── Layout.jsx # Used for wrapping routes
+│ │ |
+│ │ └── PageWrapper.jsx # Handles Framer Motion transitions
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+├── .gitignore
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+├── vercel.json # Handles SPA route fallback for Vercel
+└── README.md # Project documentation
+
+---
+
+## ⚙️ Setup Instructions
+
+### 🔧 Prerequisites
+
+- Node.js ≥ v14
+- npm or yarn
+- Git
+
+### 🚀 Getting Started
+
+1. **Clone the repository**
+
+```bash
+
+   git clone https://github.com/your-username/icecream-shop.git
+   cd icecream-shop
+
+
+   2.Install dependencies
+
+     npm install
+# or
+     yarn install
+
+
+
+ 🚀 Deployment (Vercel)
+
+     {
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
+
+
+
+
+```
