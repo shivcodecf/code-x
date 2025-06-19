@@ -71,8 +71,9 @@ npm run dev
 # or
 yarn dev
 
+```
 
-🚀 Deployment (Vercel)
+## 🚀 Deployment (Vercel)
 
 {
   "rewrites": [
@@ -80,18 +81,21 @@ yarn dev
   ]
 }
 
-```
+
 
 ## 📌 Internal Documentation
 
 - PageWrapper.jsx
-Wraps all route components to enable Framer Motion animations during route transitions.
+
+  Wraps all route components to enable Framer Motion animations during route transitions.
 
 - Navbar.jsx
-Responsive navigation bar that adapts using Tailwind’s responsive breakpoints.
+
+  Responsive navigation bar that adapts using Tailwind’s responsive breakpoints.
 
 - Route Transitions
-Each page uses <motion.div> with initial, animate, and transition props to create smooth animations.
+
+  Each page uses <motion.div> with initial, animate, and transition props to create smooth animations.
 
 ## 🛠️ Technologies Used
 
