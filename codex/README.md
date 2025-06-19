@@ -59,7 +59,7 @@ icecream-shop/
 
 ```bash
 git clone https://github.com/your-username/icecream-shop.git
-cd icecream-shop
+cd codex
 
 # Install dependencies
 npm install
@@ -80,6 +80,7 @@ yarn dev
   ]
 }
 
+```
 
 🧠 Internal Documentation
 PageWrapper.jsx
