@@ -20,29 +20,32 @@ This is a fictional Single Page Application (SPA) that displays different ice cr
 
 ## 📁 Folder Structure
 
+```plaintext
 icecream-shop/
 ├── public/
-│ └── index.html
+│   └── index.html
 ├── src/
-│ ├── assets/ # All image assets (logo, cones, frames)
-│ │ └── common/
-│ │ └── Navbar.jsx
-│ ├── components/
-│ │ ├── Icecream1.jsx
-│ │ ├── Icecream2.jsx
-│ │ ├── Icecream3.jsx
-│ │ ├── Icecream4.jsx
-│ │ ├── Layout.jsx # Wraps all routes
-│ │ └── PageWrapper.jsx # Handles Framer Motion transitions
-│ ├── App.jsx
-│ ├── main.jsx
-│ └── index.css
+│   ├── assets/
+│   │   └── common/
+│   │       └── Navbar.jsx
+│   ├── components/
+│   │   ├── Icecream1.jsx
+│   │   ├── Icecream2.jsx
+│   │   ├── Icecream3.jsx
+│   │   ├── Icecream4.jsx
+│   │   ├── Layout.jsx
+│   │   └── PageWrapper.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
 ├── .gitignore
 ├── package.json
 ├── tailwind.config.js
 ├── postcss.config.js
-├── vercel.json # SPA fallback for Vercel
+├── vercel.json
 └── README.md
+```
+
 
 
 ---
