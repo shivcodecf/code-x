@@ -16,6 +16,17 @@ This is a fictional Single Page Application (SPA) that displays different ice cr
 - Responsive design (mobile-first)
 - Smooth transitions and scroll restoration
 
+
+  ## 🖼️ Project Preview
+
+   ![image](https://github.com/user-attachments/assets/04eeb6b1-f0aa-43dc-b172-c99476b96b6a)
+
+   ![image](https://github.com/user-attachments/assets/69ff82fb-171a-4e53-b7bf-c3891493d49c)
+
+
+  
+
+
 ---
 
 ## 📁 Folder Structure
