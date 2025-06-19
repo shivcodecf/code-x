@@ -63,7 +63,7 @@ icecream-shop/
 ```bash
 
    git clone https://github.com/your-username/icecream-shop.git
-   cd icecream-shop
+   cd codex
 
 
    2.Install dependencies
@@ -81,6 +81,38 @@ icecream-shop/
     { "source": "/(.*)", "destination": "/" }
   ]
 }
+
+
+
+🧠 Internal Documentation 
+   
+PageWrapper.jsx
+Wraps all route components to apply framer-motion animation on route change.
+
+Navbar.jsx
+Handles responsive navigation bar layout, mobile tweaks via Tailwind breakpoints.
+
+Route Transitions
+Handled using motion.div with defined initial, animate, and transition props.
+
+
+🛠️ Technologies Used
+React.js
+
+React Router v6
+
+Framer Motion
+
+Tailwind CSS
+
+Vite
+
+Deployed on Vercel
+
+
+
+📬 Contact
+For queries or improvements, feel free to open an issue or contact me shivamyadav2113128@gmail.com
 
 
 
